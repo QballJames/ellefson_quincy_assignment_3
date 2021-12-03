@@ -32,12 +32,30 @@ namespace ellefson_quincy_assignment_3
             this.p1CharColor = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.p1Box = new System.Windows.Forms.GroupBox();
+            this.p1Ready = new System.Windows.Forms.CheckBox();
+            this.p1PC = new System.Windows.Forms.Label();
+            this.p1Mouse = new System.Windows.Forms.Label();
+            this.p1Hand = new System.Windows.Forms.Label();
+            this.p1Sun = new System.Windows.Forms.Label();
+            this.p1Drop = new System.Windows.Forms.Label();
+            this.p1Snow = new System.Windows.Forms.Label();
+            this.p1Smile = new System.Windows.Forms.Label();
+            this.p1Star = new System.Windows.Forms.Label();
             this.p1TileColor = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.p1Name = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.p2Box = new System.Windows.Forms.GroupBox();
+            this.p2Ready = new System.Windows.Forms.CheckBox();
+            this.p2PC = new System.Windows.Forms.Label();
+            this.p2Mouse = new System.Windows.Forms.Label();
+            this.p2Hand = new System.Windows.Forms.Label();
+            this.p2Sun = new System.Windows.Forms.Label();
+            this.p2Drop = new System.Windows.Forms.Label();
+            this.p2Snow = new System.Windows.Forms.Label();
+            this.p2Smile = new System.Windows.Forms.Label();
+            this.p2Star = new System.Windows.Forms.Label();
             this.p2CharColor = new System.Windows.Forms.Button();
             this.p2TileColor = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
@@ -45,24 +63,6 @@ namespace ellefson_quincy_assignment_3
             this.p2Name = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.p1Star = new System.Windows.Forms.Label();
-            this.p1Smile = new System.Windows.Forms.Label();
-            this.p1Snow = new System.Windows.Forms.Label();
-            this.p1Drop = new System.Windows.Forms.Label();
-            this.p1Sun = new System.Windows.Forms.Label();
-            this.p1Hand = new System.Windows.Forms.Label();
-            this.p1Mouse = new System.Windows.Forms.Label();
-            this.p1PC = new System.Windows.Forms.Label();
-            this.p2Star = new System.Windows.Forms.Label();
-            this.p2Smile = new System.Windows.Forms.Label();
-            this.p2Snow = new System.Windows.Forms.Label();
-            this.p2Drop = new System.Windows.Forms.Label();
-            this.p2Sun = new System.Windows.Forms.Label();
-            this.p2Hand = new System.Windows.Forms.Label();
-            this.p2Mouse = new System.Windows.Forms.Label();
-            this.p2PC = new System.Windows.Forms.Label();
-            this.p1Ready = new System.Windows.Forms.CheckBox();
-            this.p2Ready = new System.Windows.Forms.CheckBox();
             this.p1Box.SuspendLayout();
             this.p2Box.SuspendLayout();
             this.SuspendLayout();
@@ -111,6 +111,117 @@ namespace ellefson_quincy_assignment_3
             this.p1Box.Size = new System.Drawing.Size(384, 435);
             this.p1Box.TabIndex = 1;
             this.p1Box.TabStop = false;
+            // 
+            // p1Ready
+            // 
+            this.p1Ready.Appearance = System.Windows.Forms.Appearance.Button;
+            this.p1Ready.AutoSize = true;
+            this.p1Ready.BackColor = System.Drawing.Color.Tomato;
+            this.p1Ready.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p1Ready.Location = new System.Drawing.Point(79, 405);
+            this.p1Ready.Name = "p1Ready";
+            this.p1Ready.Size = new System.Drawing.Size(199, 30);
+            this.p1Ready.TabIndex = 17;
+            this.p1Ready.Text = "Ready to start the game?";
+            this.p1Ready.UseVisualStyleBackColor = false;
+            this.p1Ready.Visible = false;
+            this.p1Ready.CheckedChanged += new System.EventHandler(this.p1Ready_CheckedChanged);
+            // 
+            // p1PC
+            // 
+            this.p1PC.AutoSize = true;
+            this.p1PC.BackColor = System.Drawing.Color.White;
+            this.p1PC.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p1PC.Location = new System.Drawing.Point(310, 354);
+            this.p1PC.Name = "p1PC";
+            this.p1PC.Size = new System.Drawing.Size(38, 30);
+            this.p1PC.TabIndex = 16;
+            this.p1PC.Text = ":";
+            this.p1PC.Click += new System.EventHandler(this.p1PC_Click);
+            // 
+            // p1Mouse
+            // 
+            this.p1Mouse.AutoSize = true;
+            this.p1Mouse.BackColor = System.Drawing.Color.White;
+            this.p1Mouse.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p1Mouse.Location = new System.Drawing.Point(209, 354);
+            this.p1Mouse.Name = "p1Mouse";
+            this.p1Mouse.Size = new System.Drawing.Size(39, 30);
+            this.p1Mouse.TabIndex = 15;
+            this.p1Mouse.Text = "8";
+            this.p1Mouse.Click += new System.EventHandler(this.p1Mouse_Click);
+            // 
+            // p1Hand
+            // 
+            this.p1Hand.AutoSize = true;
+            this.p1Hand.BackColor = System.Drawing.Color.White;
+            this.p1Hand.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p1Hand.Location = new System.Drawing.Point(116, 354);
+            this.p1Hand.Name = "p1Hand";
+            this.p1Hand.Size = new System.Drawing.Size(37, 30);
+            this.p1Hand.TabIndex = 14;
+            this.p1Hand.Text = "I";
+            this.p1Hand.Click += new System.EventHandler(this.p1Hand_Click);
+            // 
+            // p1Sun
+            // 
+            this.p1Sun.AutoSize = true;
+            this.p1Sun.BackColor = System.Drawing.Color.White;
+            this.p1Sun.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p1Sun.Location = new System.Drawing.Point(29, 354);
+            this.p1Sun.Name = "p1Sun";
+            this.p1Sun.Size = new System.Drawing.Size(37, 30);
+            this.p1Sun.TabIndex = 13;
+            this.p1Sun.Text = "R";
+            this.p1Sun.Click += new System.EventHandler(this.p1Sun_Click);
+            // 
+            // p1Drop
+            // 
+            this.p1Drop.AutoSize = true;
+            this.p1Drop.BackColor = System.Drawing.Color.White;
+            this.p1Drop.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p1Drop.Location = new System.Drawing.Point(310, 279);
+            this.p1Drop.Name = "p1Drop";
+            this.p1Drop.Size = new System.Drawing.Size(31, 30);
+            this.p1Drop.TabIndex = 12;
+            this.p1Drop.Text = "S";
+            this.p1Drop.Click += new System.EventHandler(this.p1Drop_Click);
+            // 
+            // p1Snow
+            // 
+            this.p1Snow.AutoSize = true;
+            this.p1Snow.BackColor = System.Drawing.Color.White;
+            this.p1Snow.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p1Snow.Location = new System.Drawing.Point(209, 279);
+            this.p1Snow.Name = "p1Snow";
+            this.p1Snow.Size = new System.Drawing.Size(35, 30);
+            this.p1Snow.TabIndex = 11;
+            this.p1Snow.Text = "T";
+            this.p1Snow.Click += new System.EventHandler(this.p1Snow_Click);
+            // 
+            // p1Smile
+            // 
+            this.p1Smile.AutoSize = true;
+            this.p1Smile.BackColor = System.Drawing.Color.White;
+            this.p1Smile.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p1Smile.Location = new System.Drawing.Point(116, 279);
+            this.p1Smile.Name = "p1Smile";
+            this.p1Smile.Size = new System.Drawing.Size(36, 30);
+            this.p1Smile.TabIndex = 10;
+            this.p1Smile.Text = "J";
+            this.p1Smile.Click += new System.EventHandler(this.p1Smile_Click);
+            // 
+            // p1Star
+            // 
+            this.p1Star.AutoSize = true;
+            this.p1Star.BackColor = System.Drawing.Color.White;
+            this.p1Star.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p1Star.Location = new System.Drawing.Point(29, 279);
+            this.p1Star.Name = "p1Star";
+            this.p1Star.Size = new System.Drawing.Size(37, 30);
+            this.p1Star.TabIndex = 9;
+            this.p1Star.Text = "¶";
+            this.p1Star.Click += new System.EventHandler(this.p1Star_Click);
             // 
             // p1TileColor
             // 
@@ -189,6 +300,117 @@ namespace ellefson_quincy_assignment_3
             this.p2Box.TabIndex = 2;
             this.p2Box.TabStop = false;
             // 
+            // p2Ready
+            // 
+            this.p2Ready.Appearance = System.Windows.Forms.Appearance.Button;
+            this.p2Ready.AutoSize = true;
+            this.p2Ready.BackColor = System.Drawing.Color.Tomato;
+            this.p2Ready.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p2Ready.Location = new System.Drawing.Point(84, 405);
+            this.p2Ready.Name = "p2Ready";
+            this.p2Ready.Size = new System.Drawing.Size(199, 30);
+            this.p2Ready.TabIndex = 22;
+            this.p2Ready.Text = "Ready to start the game?";
+            this.p2Ready.UseVisualStyleBackColor = false;
+            this.p2Ready.Visible = false;
+            this.p2Ready.CheckedChanged += new System.EventHandler(this.p2Ready_CheckedChanged);
+            // 
+            // p2PC
+            // 
+            this.p2PC.AutoSize = true;
+            this.p2PC.BackColor = System.Drawing.Color.White;
+            this.p2PC.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p2PC.Location = new System.Drawing.Point(318, 354);
+            this.p2PC.Name = "p2PC";
+            this.p2PC.Size = new System.Drawing.Size(38, 30);
+            this.p2PC.TabIndex = 21;
+            this.p2PC.Text = ":";
+            this.p2PC.Click += new System.EventHandler(this.p2PC_Click);
+            // 
+            // p2Mouse
+            // 
+            this.p2Mouse.AutoSize = true;
+            this.p2Mouse.BackColor = System.Drawing.Color.White;
+            this.p2Mouse.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p2Mouse.Location = new System.Drawing.Point(214, 354);
+            this.p2Mouse.Name = "p2Mouse";
+            this.p2Mouse.Size = new System.Drawing.Size(39, 30);
+            this.p2Mouse.TabIndex = 20;
+            this.p2Mouse.Text = "8";
+            this.p2Mouse.Click += new System.EventHandler(this.p2Mouse_Click);
+            // 
+            // p2Hand
+            // 
+            this.p2Hand.AutoSize = true;
+            this.p2Hand.BackColor = System.Drawing.Color.White;
+            this.p2Hand.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p2Hand.Location = new System.Drawing.Point(125, 354);
+            this.p2Hand.Name = "p2Hand";
+            this.p2Hand.Size = new System.Drawing.Size(37, 30);
+            this.p2Hand.TabIndex = 19;
+            this.p2Hand.Text = "I";
+            this.p2Hand.Click += new System.EventHandler(this.p2Hand_Click);
+            // 
+            // p2Sun
+            // 
+            this.p2Sun.AutoSize = true;
+            this.p2Sun.BackColor = System.Drawing.Color.White;
+            this.p2Sun.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p2Sun.Location = new System.Drawing.Point(24, 354);
+            this.p2Sun.Name = "p2Sun";
+            this.p2Sun.Size = new System.Drawing.Size(37, 30);
+            this.p2Sun.TabIndex = 18;
+            this.p2Sun.Text = "R";
+            this.p2Sun.Click += new System.EventHandler(this.p2Sun_Click);
+            // 
+            // p2Drop
+            // 
+            this.p2Drop.AutoSize = true;
+            this.p2Drop.BackColor = System.Drawing.Color.White;
+            this.p2Drop.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p2Drop.Location = new System.Drawing.Point(318, 279);
+            this.p2Drop.Name = "p2Drop";
+            this.p2Drop.Size = new System.Drawing.Size(31, 30);
+            this.p2Drop.TabIndex = 17;
+            this.p2Drop.Text = "S";
+            this.p2Drop.Click += new System.EventHandler(this.p1Drop_Click);
+            // 
+            // p2Snow
+            // 
+            this.p2Snow.AutoSize = true;
+            this.p2Snow.BackColor = System.Drawing.Color.White;
+            this.p2Snow.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p2Snow.Location = new System.Drawing.Point(218, 279);
+            this.p2Snow.Name = "p2Snow";
+            this.p2Snow.Size = new System.Drawing.Size(35, 30);
+            this.p2Snow.TabIndex = 12;
+            this.p2Snow.Text = "T";
+            this.p2Snow.Click += new System.EventHandler(this.p2Snow_Click);
+            // 
+            // p2Smile
+            // 
+            this.p2Smile.AutoSize = true;
+            this.p2Smile.BackColor = System.Drawing.Color.White;
+            this.p2Smile.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p2Smile.Location = new System.Drawing.Point(126, 279);
+            this.p2Smile.Name = "p2Smile";
+            this.p2Smile.Size = new System.Drawing.Size(36, 30);
+            this.p2Smile.TabIndex = 11;
+            this.p2Smile.Text = "J";
+            this.p2Smile.Click += new System.EventHandler(this.p2Smile_Click);
+            // 
+            // p2Star
+            // 
+            this.p2Star.AutoSize = true;
+            this.p2Star.BackColor = System.Drawing.Color.White;
+            this.p2Star.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.p2Star.Location = new System.Drawing.Point(24, 279);
+            this.p2Star.Name = "p2Star";
+            this.p2Star.Size = new System.Drawing.Size(37, 30);
+            this.p2Star.TabIndex = 10;
+            this.p2Star.Text = "¶";
+            this.p2Star.Click += new System.EventHandler(this.p2Star_Click);
+            // 
             // p2CharColor
             // 
             this.p2CharColor.Location = new System.Drawing.Point(223, 199);
@@ -260,228 +482,6 @@ namespace ellefson_quincy_assignment_3
             this.label2.Size = new System.Drawing.Size(165, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Player 2 Settings";
-            // 
-            // p1Star
-            // 
-            this.p1Star.AutoSize = true;
-            this.p1Star.BackColor = System.Drawing.Color.RosyBrown;
-            this.p1Star.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p1Star.Location = new System.Drawing.Point(29, 279);
-            this.p1Star.Name = "p1Star";
-            this.p1Star.Size = new System.Drawing.Size(37, 30);
-            this.p1Star.TabIndex = 9;
-            this.p1Star.Text = "¶";
-            this.p1Star.Click += new System.EventHandler(this.p1Star_Click);
-            // 
-            // p1Smile
-            // 
-            this.p1Smile.AutoSize = true;
-            this.p1Smile.BackColor = System.Drawing.Color.RosyBrown;
-            this.p1Smile.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p1Smile.Location = new System.Drawing.Point(116, 279);
-            this.p1Smile.Name = "p1Smile";
-            this.p1Smile.Size = new System.Drawing.Size(36, 30);
-            this.p1Smile.TabIndex = 10;
-            this.p1Smile.Text = "J";
-            this.p1Smile.Click += new System.EventHandler(this.p1Smile_Click);
-            // 
-            // p1Snow
-            // 
-            this.p1Snow.AutoSize = true;
-            this.p1Snow.BackColor = System.Drawing.Color.RosyBrown;
-            this.p1Snow.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p1Snow.Location = new System.Drawing.Point(209, 279);
-            this.p1Snow.Name = "p1Snow";
-            this.p1Snow.Size = new System.Drawing.Size(35, 30);
-            this.p1Snow.TabIndex = 11;
-            this.p1Snow.Text = "T";
-            this.p1Snow.Click += new System.EventHandler(this.p1Snow_Click);
-            // 
-            // p1Drop
-            // 
-            this.p1Drop.AutoSize = true;
-            this.p1Drop.BackColor = System.Drawing.Color.RosyBrown;
-            this.p1Drop.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p1Drop.Location = new System.Drawing.Point(310, 279);
-            this.p1Drop.Name = "p1Drop";
-            this.p1Drop.Size = new System.Drawing.Size(31, 30);
-            this.p1Drop.TabIndex = 12;
-            this.p1Drop.Text = "S";
-            this.p1Drop.Click += new System.EventHandler(this.p1Drop_Click);
-            // 
-            // p1Sun
-            // 
-            this.p1Sun.AutoSize = true;
-            this.p1Sun.BackColor = System.Drawing.Color.RosyBrown;
-            this.p1Sun.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p1Sun.Location = new System.Drawing.Point(29, 354);
-            this.p1Sun.Name = "p1Sun";
-            this.p1Sun.Size = new System.Drawing.Size(37, 30);
-            this.p1Sun.TabIndex = 13;
-            this.p1Sun.Text = "R";
-            this.p1Sun.Click += new System.EventHandler(this.p1Sun_Click);
-            // 
-            // p1Hand
-            // 
-            this.p1Hand.AutoSize = true;
-            this.p1Hand.BackColor = System.Drawing.Color.RosyBrown;
-            this.p1Hand.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p1Hand.Location = new System.Drawing.Point(116, 354);
-            this.p1Hand.Name = "p1Hand";
-            this.p1Hand.Size = new System.Drawing.Size(37, 30);
-            this.p1Hand.TabIndex = 14;
-            this.p1Hand.Text = "I";
-            this.p1Hand.Click += new System.EventHandler(this.p1Hand_Click);
-            // 
-            // p1Mouse
-            // 
-            this.p1Mouse.AutoSize = true;
-            this.p1Mouse.BackColor = System.Drawing.Color.RosyBrown;
-            this.p1Mouse.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p1Mouse.Location = new System.Drawing.Point(209, 354);
-            this.p1Mouse.Name = "p1Mouse";
-            this.p1Mouse.Size = new System.Drawing.Size(39, 30);
-            this.p1Mouse.TabIndex = 15;
-            this.p1Mouse.Text = "8";
-            this.p1Mouse.Click += new System.EventHandler(this.p1Mouse_Click);
-            // 
-            // p1PC
-            // 
-            this.p1PC.AutoSize = true;
-            this.p1PC.BackColor = System.Drawing.Color.RosyBrown;
-            this.p1PC.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p1PC.Location = new System.Drawing.Point(310, 354);
-            this.p1PC.Name = "p1PC";
-            this.p1PC.Size = new System.Drawing.Size(38, 30);
-            this.p1PC.TabIndex = 16;
-            this.p1PC.Text = ":";
-            this.p1PC.Click += new System.EventHandler(this.p1PC_Click);
-            // 
-            // p2Star
-            // 
-            this.p2Star.AutoSize = true;
-            this.p2Star.BackColor = System.Drawing.Color.RosyBrown;
-            this.p2Star.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p2Star.Location = new System.Drawing.Point(24, 279);
-            this.p2Star.Name = "p2Star";
-            this.p2Star.Size = new System.Drawing.Size(37, 30);
-            this.p2Star.TabIndex = 10;
-            this.p2Star.Text = "¶";
-            this.p2Star.Click += new System.EventHandler(this.p2Star_Click);
-            // 
-            // p2Smile
-            // 
-            this.p2Smile.AutoSize = true;
-            this.p2Smile.BackColor = System.Drawing.Color.RosyBrown;
-            this.p2Smile.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p2Smile.Location = new System.Drawing.Point(126, 279);
-            this.p2Smile.Name = "p2Smile";
-            this.p2Smile.Size = new System.Drawing.Size(36, 30);
-            this.p2Smile.TabIndex = 11;
-            this.p2Smile.Text = "J";
-            this.p2Smile.Click += new System.EventHandler(this.p2Smile_Click);
-            // 
-            // p2Snow
-            // 
-            this.p2Snow.AutoSize = true;
-            this.p2Snow.BackColor = System.Drawing.Color.RosyBrown;
-            this.p2Snow.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p2Snow.Location = new System.Drawing.Point(218, 279);
-            this.p2Snow.Name = "p2Snow";
-            this.p2Snow.Size = new System.Drawing.Size(35, 30);
-            this.p2Snow.TabIndex = 12;
-            this.p2Snow.Text = "T";
-            this.p2Snow.Click += new System.EventHandler(this.p2Snow_Click);
-            // 
-            // p2Drop
-            // 
-            this.p2Drop.AutoSize = true;
-            this.p2Drop.BackColor = System.Drawing.Color.RosyBrown;
-            this.p2Drop.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p2Drop.Location = new System.Drawing.Point(318, 279);
-            this.p2Drop.Name = "p2Drop";
-            this.p2Drop.Size = new System.Drawing.Size(31, 30);
-            this.p2Drop.TabIndex = 17;
-            this.p2Drop.Text = "S";
-            this.p2Drop.Click += new System.EventHandler(this.p1Drop_Click);
-            // 
-            // p2Sun
-            // 
-            this.p2Sun.AutoSize = true;
-            this.p2Sun.BackColor = System.Drawing.Color.RosyBrown;
-            this.p2Sun.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p2Sun.Location = new System.Drawing.Point(24, 354);
-            this.p2Sun.Name = "p2Sun";
-            this.p2Sun.Size = new System.Drawing.Size(37, 30);
-            this.p2Sun.TabIndex = 18;
-            this.p2Sun.Text = "R";
-            this.p2Sun.Click += new System.EventHandler(this.p2Sun_Click);
-            // 
-            // p2Hand
-            // 
-            this.p2Hand.AutoSize = true;
-            this.p2Hand.BackColor = System.Drawing.Color.RosyBrown;
-            this.p2Hand.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p2Hand.Location = new System.Drawing.Point(125, 354);
-            this.p2Hand.Name = "p2Hand";
-            this.p2Hand.Size = new System.Drawing.Size(37, 30);
-            this.p2Hand.TabIndex = 19;
-            this.p2Hand.Text = "I";
-            this.p2Hand.Click += new System.EventHandler(this.p2Hand_Click);
-            // 
-            // p2Mouse
-            // 
-            this.p2Mouse.AutoSize = true;
-            this.p2Mouse.BackColor = System.Drawing.Color.RosyBrown;
-            this.p2Mouse.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p2Mouse.Location = new System.Drawing.Point(214, 354);
-            this.p2Mouse.Name = "p2Mouse";
-            this.p2Mouse.Size = new System.Drawing.Size(39, 30);
-            this.p2Mouse.TabIndex = 20;
-            this.p2Mouse.Text = "8";
-            this.p2Mouse.Click += new System.EventHandler(this.p2Mouse_Click);
-            // 
-            // p2PC
-            // 
-            this.p2PC.AutoSize = true;
-            this.p2PC.BackColor = System.Drawing.Color.RosyBrown;
-            this.p2PC.Font = new System.Drawing.Font("Wingdings", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.p2PC.Location = new System.Drawing.Point(318, 354);
-            this.p2PC.Name = "p2PC";
-            this.p2PC.Size = new System.Drawing.Size(38, 30);
-            this.p2PC.TabIndex = 21;
-            this.p2PC.Text = ":";
-            this.p2PC.Click += new System.EventHandler(this.p2PC_Click);
-            // 
-            // p1Ready
-            // 
-            this.p1Ready.Appearance = System.Windows.Forms.Appearance.Button;
-            this.p1Ready.AutoSize = true;
-            this.p1Ready.BackColor = System.Drawing.Color.Tomato;
-            this.p1Ready.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p1Ready.Location = new System.Drawing.Point(79, 405);
-            this.p1Ready.Name = "p1Ready";
-            this.p1Ready.Size = new System.Drawing.Size(199, 30);
-            this.p1Ready.TabIndex = 17;
-            this.p1Ready.Text = "Ready to start the game?";
-            this.p1Ready.UseVisualStyleBackColor = false;
-            this.p1Ready.Visible = false;
-            this.p1Ready.CheckedChanged += new System.EventHandler(this.p1Ready_CheckedChanged);
-            // 
-            // p2Ready
-            // 
-            this.p2Ready.Appearance = System.Windows.Forms.Appearance.Button;
-            this.p2Ready.AutoSize = true;
-            this.p2Ready.BackColor = System.Drawing.Color.Tomato;
-            this.p2Ready.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p2Ready.Location = new System.Drawing.Point(84, 405);
-            this.p2Ready.Name = "p2Ready";
-            this.p2Ready.Size = new System.Drawing.Size(199, 30);
-            this.p2Ready.TabIndex = 22;
-            this.p2Ready.Text = "Ready to start the game?";
-            this.p2Ready.UseVisualStyleBackColor = false;
-            this.p2Ready.Visible = false;
-            this.p2Ready.CheckedChanged += new System.EventHandler(this.p2Ready_CheckedChanged);
             // 
             // setupForm
             // 
